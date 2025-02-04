@@ -1,18 +1,16 @@
-## Portfolio
+## Data Science & Analytics Portfolio
 
 ---
 
-### Category Name 1 
+### Sports Science & Analytics Projects 
 
-[Project 1 Title](/sample_page)
+[Collegiate Football Training and Practice Loads](/sample_page)
+
+<small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies to optimize training and practice loads for enhanced player availability.<small>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
+[Collegiate Athletes Force Plate Analysis](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
