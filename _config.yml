@@ -1,5 +1,5 @@
 title: Anna Busatto # your name (or website title) here
-logo: "images/Anna_headshot.png?raw=true" # your photo (or logo) here
+logo: "/images/Anna_headshot.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Hello! My name is Anna Busatto, and I am a PhD student in Biomedical Engineering with a passion for sports analytics. My portfolio contains projects related to applied health and performance science.
   <br><br>
