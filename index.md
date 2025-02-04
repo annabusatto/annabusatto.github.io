@@ -7,7 +7,7 @@
 [Collegiate Football Training and Practice Loads](/sample_page)
 
 <small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies to optimize training and practice loads for enhanced player availability.<small>
-<img src="images/dashboard.png?raw=true"/>
+<img src="images/dashboard.jpg?raw=true"/>
 
 ---
 [Collegiate Athletes Force Plate Analysis](/pdf/sample_presentation.pdf)
