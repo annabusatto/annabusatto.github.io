@@ -1,14 +1,10 @@
-## Analysis of Key Drivers of Total Player Load and Player Load per Minute for Collegiate Football Players
+## Collegiate Athletes Force Plate Analysis
 
-**Project description:** This project was conducted for a Division I collegiate football team to analyze and identify the key drivers of both total player load and player load per minute by position. The primary goal was to inform strategies for optimizing training and practice loads to enhance player availability, especially in light of a significant reduction in roster size from 120-130 players to 95-105 players, effective for the 2025-2026 season. With the roster size decreasing by approximately 20%, it is crucial to understand how to manage training and practice loads effectively to maintain player availability. By analyzing data on these variables, the project sought to provide actionable insights that could help in designing training programs that minimize the risk of injury and maximize player performance and availability.
-<br>
-
-### 1. Data Description
+**Project description:** This study was conducted on male and female Division I collegiate athletes from various sports to analyze changes in their asymmetries over time. Specifically, it focused on athletes who have been in the program for 3 or more years. The goal was to identify significant deviations from their baseline measurements and assess the associated risk of injury. Several asymmetry and performance metrics were evaluated.
 
 The data used for this project includes:
 
-*Catapult Data:* Data was collected using Catapult GPS devices worn by players during training sessions and games. The initial step in this project involved researching to identify key metrics that could be associated with total player load and player load per minute. This research focused on variables such as distance covered, acceleration/deceleration, high-speed efforts, and other relevant metrics. The intention was to determine the variables of interest in the analysis based on football-specific research, allowing us to create a more manageable dataset from the extensive range of variables available.
-
+*Force Plate Data:* Force Plate Data: The data utilized was collected from countermovement jumps and single-leg jumps performed by Division I athletes from multiple sports from 2020 to 2025. The initial step in this project involved identifying key metrics associated with asymmetry and performance. This research focused on variables such as Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, and Landing Impulse Asymmetry. These metrics were used to investigate the asymmetry changes within individual athletes across seasons and to hopefully predict and prevent the risk of injuries.
 ```javascript
 if (isAwesome){
   return true
