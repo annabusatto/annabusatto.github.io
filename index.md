@@ -6,7 +6,11 @@
 
 [Collegiate Football Training and Practice Loads](/FB_PlayerLoadProject)
 
-<small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies to optimize training and practice loads for enhanced player availability.<small>
+<div class="justify-text">
+  <small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies    to optimize training and practice loads for enhanced player availability.
+<small>
+</div>
+
 <img src="images/CFB-training-load/dashboard.jpg?raw=true"/>
 
 ---
