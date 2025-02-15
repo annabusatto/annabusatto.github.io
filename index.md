@@ -16,7 +16,7 @@
 
 [Collegiate Athletes Force Plate Analysis](/AthleteProfiling_ForcePlate)
 
-<small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies    to optimize training and practice loads for enhanced player availability.
+<small>Project conducted on male and female Division I collegiate athletes from various sports, analyzing asymmetry changes over 3+ years to identify injury risk and optimize performance.
 </small>
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
