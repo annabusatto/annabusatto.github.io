@@ -8,7 +8,7 @@
 
 <div class="justify-text">
   <small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies    to optimize training and practice loads for enhanced player availability.
-<small>
+  </small>
 </div>
 
 <img src="images/CFB-training-load/dashboard.jpg?raw=true"/>
