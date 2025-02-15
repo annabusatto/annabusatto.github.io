@@ -13,7 +13,6 @@
 
 ---
 
-### Sports Science & Analytics Projects
 
 [Collegiate Athletes Force Plate Analysis](/AthleteProfiling_ForcePlate)
 
