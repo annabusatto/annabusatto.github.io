@@ -9,6 +9,7 @@ The data used for this project includes:
 
 *Catapult Data:* Data was collected using Catapult GPS devices worn by players during training sessions and games. The initial step in this project involved researching to identify key metrics that could be associated with total player load and player load per minute. This research focused on variables such as distance covered, acceleration/deceleration, high-speed efforts, and other relevant metrics. The intention was to determine the variables of interest in the analysis based on football-specific research, allowing us to create a more manageable dataset from the extensive range of variables available.
 
+<!--
 ```javascript
 if (isAwesome){
   return true
@@ -32,3 +33,4 @@ if (isAwesome){
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+-->
