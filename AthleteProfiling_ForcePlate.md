@@ -4,7 +4,7 @@
 
 The data used for this project includes:
 
-*Force Plate Data:* Force Plate Data: The data utilized was collected from countermovement jumps and single-leg jumps performed by Division I athletes from multiple sports from 2020 to 2025. The initial step in this project involved identifying key metrics associated with asymmetry and performance. This research focused on variables such as Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, and Landing Impulse Asymmetry. These metrics were used to investigate the asymmetry changes within individual athletes across seasons and to hopefully predict and prevent the risk of injuries.
+*Force Plate Data:* The data utilized was collected from countermovement jumps and single-leg jumps performed by Division I athletes from multiple sports from 2020 to 2025. The initial step in this project involved identifying key metrics associated with asymmetry and performance. This research focused on variables such as Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, and Landing Impulse Asymmetry. These metrics were used to investigate the asymmetry changes within individual athletes across seasons and to hopefully predict and prevent the risk of injuries.
 ```javascript
 if (isAwesome){
   return true
