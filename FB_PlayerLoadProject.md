@@ -3,7 +3,8 @@
 <div class="justify-text">
 **Project description:** This project was conducted for a Division I collegiate football team to analyze and identify the key drivers of both total player load and player load per minute by position. The primary goal was to inform strategies for optimizing training and practice loads to enhance player availability, especially in light of a significant reduction in roster size from 120-130 players to 95-105 players, effective for the 2025-2026 season. With the roster size decreasing by approximately 20%, it is crucial to understand how to manage training and practice loads effectively to maintain player availability. By analyzing data on these variables, the project sought to provide actionable insights that could help in designing training programs that minimize the risk of injury and maximize player performance and availability.
 </div>
-  
+<br>
+
 ### 1. Data Description
 
 The data used for this project includes:
