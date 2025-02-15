@@ -19,7 +19,7 @@
 <small>Project conducted on male and female Division I collegiate athletes from various sports, analyzing asymmetry changes over 3+ years to identify injury risk and optimize performance.
 </small>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/AthleteProfiling/asymmetry.jpg?raw=true"/>
 
 ---
 
