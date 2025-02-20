@@ -18,7 +18,7 @@ The data for this project includes:
    - Remove outliers using the IQR (interquartile range) method.
 
 2. **Exploratory Data Analysis:**
-   - Analyze performance metrics (Concentric Peak Force / BM [N/kg], Eccentric Peak Force / BM [N/kg], Peak Power / BM [W/kg], RSI-modified [m/s]) and asymmetry metrics (Concentric Peak Force Asymmetry [% L,R], Eccentric Peak Force Asymmetry [% L,R], Force at Zero Velocity Asymmetry [% L,R], Landing Impulse Asymmetry [% L,R]).
+   - Analyze performance metrics (Concentric Peak Force / BM, Eccentric Peak Force / BM, Peak Power / BM, RSI-modified) and asymmetry metrics (Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, Landing Impulse Asymmetry).
    - Generate descriptive statistics and visualize histograms of differences between male and female athletes.
    - Analyze differences between sports using ANOVA.
    - Visualize asymmetries within each sport using boxplots.
@@ -29,25 +29,19 @@ The data for this project includes:
 3. **Data Analysis in Python:**
    - Focus on asymmetry metrics and examine changes over time for individual athletes from football, gymnastics, and men's and women's basketball.
    - Identify when asymmetry changes cross a threshold that could be linked to an increased risk of injury.
-
-4. **Correlation Analysis:**
    - Calculate correlation coefficients between asymmetry and performance metrics to identify linear relationships.
    - Create a correlation heatmap of asymmetry and performance metrics.
-
-5. **Scatter Plots:**
    - Create scatter plots to visually inspect relationships between each pair of asymmetry and performance metrics.
-
-6. **Regression Analysis:**
    - Perform regression analysis to quantify relationships between asymmetry and performance metrics.
-
-7. **Pairplot with Additional Metrics:**
    - Extend pairplots to include both asymmetry and performance metrics.
 
-8. **Focused Analysis:**
+4. **Focused Analysis:**
    - Investigate metrics focusing on smaller and different groups to see if trends remain consistent or reveal new insights.
    - Conduct correlation and scatter plot analyses for specific groups such as female or male athletes, football athletes, and lacrosse athletes.
 
 
+
+   
 <!--
 ```javascript
 if (isAwesome){
