@@ -8,7 +8,7 @@ The data for this project includes:
 
 **Force Plate Data:** Collected from countermovement jumps and single-leg jumps performed by Division I athletes from multiple sports between 2020 and 2025. Key metrics associated with asymmetry and performance were identified, focusing on variables such as Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, and Landing Impulse Asymmetry. These metrics were used to investigate asymmetry changes within individual athletes across seasons to predict and prevent injury risks.
 
-### 2. Project Process & Preliminary Data Analysis
+### 2. Project Process
 
 1. **Data Cleaning:**
    - Extract information, change date formats, remove unnecessary columns.
@@ -26,22 +26,27 @@ The data for this project includes:
    - Determine the optimal number of clusters using the elbow method.
    - Perform KMeans clustering with the optimal number of clusters and visualize the clusters using pairplots.
 
-3. **Correlation Analysis:**
+3. **Data Analysis in Python:**
+   - Focus on asymmetry metrics and examine changes over time for individual athletes from football, gymnastics, and men's and women's basketball.
+   - Identify when asymmetry changes cross a threshold that could be linked to an increased risk of injury.
+
+4. **Correlation Analysis:**
    - Calculate correlation coefficients between asymmetry and performance metrics to identify linear relationships.
    - Create a correlation heatmap of asymmetry and performance metrics.
 
-4. **Scatter Plots:**
+5. **Scatter Plots:**
    - Create scatter plots to visually inspect relationships between each pair of asymmetry and performance metrics.
 
-5. **Regression Analysis:**
+6. **Regression Analysis:**
    - Perform regression analysis to quantify relationships between asymmetry and performance metrics.
 
-6. **Pairplot with Additional Metrics:**
+7. **Pairplot with Additional Metrics:**
    - Extend pairplots to include both asymmetry and performance metrics.
 
-7. **Focused Analysis:**
+8. **Focused Analysis:**
    - Investigate metrics focusing on smaller and different groups to see if trends remain consistent or reveal new insights.
    - Conduct correlation and scatter plot analyses for specific groups such as female or male athletes, football athletes, and lacrosse athletes.
+
 
 <!--
 ```javascript
