@@ -8,7 +8,7 @@ The data for this project includes:
 
 **Force Plate Data:** Collected from countermovement jumps and single-leg jumps performed by Division I athletes from multiple sports between 2020 and 2025. Key metrics associated with asymmetry and performance were identified, focusing on variables such as Concentric Peak Force Asymmetry, Eccentric Peak Force Asymmetry, Force at Zero Velocity Asymmetry, and Landing Impulse Asymmetry. These metrics were used to investigate asymmetry changes within individual athletes across seasons to predict and prevent injury risks.
 
-### 2. Project Process & Exploratory Data Analysis
+### 2. Project Process & Preliminary Data Analysis
 
 1. **Data Cleaning:**
    - Extract information, change date formats, remove unnecessary columns.
