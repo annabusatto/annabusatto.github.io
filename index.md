@@ -23,6 +23,16 @@
 
 ---
 
+
+[Case Studies of Relationships Between Asymmetry, Performance, and Injuries](/FB_CaseStudies)
+
+<small>Study of two Division I collegiate football players, tracking asymmetry, performance, and injury data over multiple seasons to inform injury prevention and performance optimization approaches.
+</small>
+
+<img src="images/AthleteProfiling/playerLoad.jpg?raw=true"/>
+
+---
+
 <!-- ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
