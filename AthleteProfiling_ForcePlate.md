@@ -11,7 +11,7 @@ The data for this project includes:
 ### 2. Project Process
 
 1. **Data Cleaning:**
-   - Extract information, change date formats, remove unnecessary columns.
+   - Extract information, change date formats, and remove unnecessary columns.
    - Add athletes' gender and player position.
    - Create different data frames for individual sports as needed.
    - Sort athletes who have been in the program for 3+ years.
@@ -24,16 +24,16 @@ The data for this project includes:
    - Visualize asymmetries within each sport using boxplots.
    - Perform cluster analysis based on sport and gender.
    - Determine the optimal number of clusters using the elbow method.
-   - Perform KMeans clustering with the optimal number of clusters and visualize the clusters using pairplots.
+   - Perform KMeans clustering with the optimal number of clusters and visualize the clusters using pair plots.
 
 3. **Data Analysis in Python:**
    - Focus on asymmetry metrics and examine changes over time for individual athletes from football, gymnastics, and men's and women's basketball.
    - Identify when asymmetry changes cross a threshold that could be linked to an increased risk of injury.
    - Calculate correlation coefficients between asymmetry and performance metrics to identify linear relationships.
-   - Create a correlation heatmap of asymmetry and performance metrics.
+   - Create correlation heatmaps of asymmetry and performance metrics.
    - Create scatter plots to visually inspect relationships between each pair of asymmetry and performance metrics.
    - Perform regression analysis to quantify relationships between asymmetry and performance metrics.
-   - Extend pairplots to include both asymmetry and performance metrics.
+   - Extend pair plots to include both asymmetry and performance metrics.
 
 4. **Focused Analysis:**
    - Investigate metrics focusing on smaller and different groups to see if trends remain consistent or reveal new insights.
