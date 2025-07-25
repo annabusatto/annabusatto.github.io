@@ -57,7 +57,7 @@ The dataset for this report includes multiple sources covering physical performa
 ### 2.3 Statistical and Comparative Analyses
 
 - Performed correlation analyses between performance, force metrics, and physical health indicators.
-- Used moving averages and z-scores to flag periods of abnormal performance or injury/treatment spikes.
+- Used z-scores to flag periods of abnormal performance or injury/treatment spikes.
 - Compared average competition scores and treatment rates across different training phases and injury status.
 - Conducted subgroup comparisons (e.g., by class year or lineup consistency) to explore variation in mental health or injury data.
 
