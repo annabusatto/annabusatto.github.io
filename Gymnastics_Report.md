@@ -61,7 +61,7 @@ The dataset for this report includes multiple sources covering physical performa
 
 - Compiled findings into a comprehensive end-of-year report with statistical comparisons, contextual narratives, and annotated figures.
 - Created visualizations in R to illustrate trends over time (e.g., scores, force metrics, injuries/treatments), relationships between variables (e.g., RSI vs. vault scores), and group comparisons (e.g., by class year or training phase).
-- Figures included time series plots, boxplots, bar charts, and correlation matrices to support key insights.
+- Figures included time series plots, boxplots, bar charts, pie charts, and correlation matrices to support key insights.
 - Report was formatted for coaches and performance staff, with an emphasis on clarity, relevance, and actionability.
 - Highlighted critical moments such as performance dips following high treatment volume, force plate trends across the season, and injury clusters associated with specific apparatus or time periods.
 - Presented findings to coaching and sports performance staff, providing clear and actionable data to support their decision-making regarding training, recovery, and competition strategy.
