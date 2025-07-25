@@ -13,6 +13,13 @@
 
 ---
 
+[End-of-Year Performance Analysis for Collegiate Gymnastics](/Gymnastics_Report)
+
+<small>Project completed for a Division I collegiate gymnastics team, integrating competition scores, force plate metrics, injury logs, treatments, DEXA scans, and mental health data to highlight key performance trends and support planning around athlete health and readiness.</small>
+
+<img src="images/gymnastics-report/overview-figure.png?raw=true"/>
+
+---
 
 [Collegiate Athletes Force Plate Analysis](/AthleteProfiling_ForcePlate)
 
