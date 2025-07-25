@@ -30,6 +30,10 @@ The dataset for this report includes multiple sources covering physical performa
 - **Mental Health Data**  
   Mental health appointment frequencies were analyzed monthly and by competition week. Patterns were explored both at the team level and by athlete class (freshmen through seniors) to detect periods of increased mental health service usage.
 
+
+![Figure 1: Overview of Data Sources](images/Gymnastics/data_sources_diagram.svg)
+*Figure 1: Diagram summarizing the main data sources used in the gymnastics performance report.*
+
 ---
 
 ## 2. Project Process
