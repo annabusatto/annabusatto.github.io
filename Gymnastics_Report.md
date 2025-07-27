@@ -1,7 +1,9 @@
 # End of the Year Collegiate Gymnastics Report
 
 **Project Description:**  
-This end-of-year report focused on analyzing individual and team performance for a Division I collegiate gymnastics team throughout the 2024–2025 season. The objective was to uncover actionable insights on what contributed to performance successes and shortcomings, with the goal of informing strategic decisions to improve future outcomes.
+This end-of-year report focused on analyzing individual and team performance for a Division I collegiate gymnastics team throughout a season. The objective was to uncover actionable insights on what contributed to performance successes and shortcomings, with the goal of informing strategic decisions to improve future outcomes.
+
+**[➡️ Sample PDF Report Here](images/Gymnastics/gym_pp.pdf)**
 
 ---
 
