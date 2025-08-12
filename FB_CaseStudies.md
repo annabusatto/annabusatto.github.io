@@ -2,6 +2,8 @@
 
 **Project Description:** This study examined longitudinal changes in movement asymmetries in two Division I collegiate football players—a tight end and a defensive tackle—both exhibiting consistently high asymmetry levels. The objective was to conduct an in-depth analysis of their asymmetry profiles, athletic performance, and injury histories throughout their tenure in the program. Insights derived from this study aim to inform scalable methodologies for monitoring and managing asymmetry across entire teams, enhancing injury prevention and performance optimization strategies.
 
+**[➡️ Sample PDF Report Here](images/Gymnastics/gym_pp.pdf)**
+
 ### 1. Data Description
 
 The data for this project includes:
