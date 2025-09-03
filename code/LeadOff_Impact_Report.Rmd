@@ -1,0 +1,206 @@
+---
+title: "Lead‑Off Impact Report"
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readr)
+library(readxl)
+library(lme4)
+library(broom.mixed)
+library(lubridate)
+```
+
+# What this shows (in plain English)
+
+**Goal:** quantify whether the **lead‑off routine** (the first athlete up) boosts or drags the **rest of the lineup** that follows.
+
+**How we measure it:**
+1. For every athlete and event, we compute a personal **baseline** (their average on that event).
+2. For each routine we compute a **residual** = **actual score − baseline**.  
+   - Positive residual = they did better than their norm. Negative = below their norm.
+3. For each meet+event, we look at the **lead‑off residual** and ask: do the **teammates' residuals** in positions 2–6 tend to rise when the lead‑off is above her norm (and fall when below)?
+4. We fit a **mixed‑effects model** to estimate that relationship while accounting for athlete, date (meet), and event differences.
+
+> **Key number:** the **Lead‑Off Impact Slope**. If it’s +0.30, then a lead‑off who is +0.10 above her norm is associated with teammates averaging **+0.03** above *their* norms.
+
+---
+
+# Load data / run analysis if needed
+
+```{r load-or-run, message=FALSE, warning=FALSE}
+# If outputs from lead_off_impact.R exist, read them; otherwise, run the analysis.
+out_dir <- "/Users/anna/Desktop/lead_off_outputs"
+need_run <- !dir.exists(out_dir) ||
+            !all(file.exists(file.path(out_dir, c("mixed_model_summary.csv",
+                                                  "event_slopes.csv",
+                                                  "hit_effect.csv",
+                                                  "routines_long.csv"))))
+
+if (need_run) {
+  message("Outputs not found — sourcing 'lead_off_impact.R' to generate them...")
+  source("lead_off_impact.R")
+}
+
+model_summary <- read_csv(file.path(out_dir, "mixed_model_summary.csv"), show_col_types = FALSE)
+event_slopes  <- read_csv(file.path(out_dir, "event_slopes.csv"), show_col_types = FALSE)
+hit_effect    <- read_csv(file.path(out_dir, "hit_effect.csv"), show_col_types = FALSE)
+routines_long <- read_csv(file.path(out_dir, "routines_long.csv"), show_col_types = FALSE)
+```
+
+# Headline finding: overall lead‑off impact
+
+```{r overall-impact, fig.height=4, fig.width=7}
+overall <- model_summary %>% filter(term == "leadoff_resid") %>%
+  transmute(term = "Lead‑Off Impact Slope",
+            estimate, conf.low, conf.high)
+
+ggplot(overall, aes(y = term, x = estimate)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high), height = 0.1) +
+  geom_vline(xintercept = 0, linetype = 2) +
+  labs(x = "Effect on teammates' residual (per 1.0 of lead‑off residual)",
+       y = NULL,
+       title = "Overall Lead Off Impact",
+       subtitle = "Point = estimate; line = 95% CI. > 0 means better lead off tends to lift teammates.") +
+  theme_minimal(base_size = 12)
+```
+
+**How to read it:** If the confidence interval (line) stays **entirely to the right of 0**, the lead‑off effect is statistically positive.
+
+---
+
+# By event: where is the effect strongest?
+
+```{r event-slopes, fig.height=4.5, fig.width=7}
+ev <- event_slopes %>%
+  mutate(Event = factor(Event, levels = sort(unique(Event))))
+
+ggplot(ev, aes(y = Event, x = estimate)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high), height = 0.1) +
+  geom_vline(xintercept = 0, linetype = 2) +
+  labs(x = "Effect on teammates' residual",
+       y = NULL,
+       title = "Lead Off Impact by Event",
+       subtitle = "Point = estimate; line = 95% CI") +
+  theme_minimal(base_size = 12)
+```
+
+**Coach takeaway:** Prioritize a consistent, confident lead‑off **especially** on events where the point and line sit farthest to the right.
+
+---
+
+# Practical view: teammates after a lead‑off “hit” vs “miss”
+
+```{r hit-effect, fig.height=4, fig.width=7}
+hit_plot <- hit_effect %>%
+  pivot_longer(cols = c(mean_follow_resid_if_leadoff_hit, mean_follow_resid_if_leadoff_miss),
+               names_to = "cond", values_to = "value") %>%
+  mutate(cond = recode(cond,
+                       mean_follow_resid_if_leadoff_hit = "After lead off HIT",
+                       mean_follow_resid_if_leadoff_miss = "After lead off MISS"))
+
+plot<-ggplot(hit_plot, aes(x = Event, y = value, fill = cond)) +
+  geom_col(position = position_dodge(width = 0.7), width = 0.6) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  labs(x = NULL, y = "Mean teammates' residual",
+       title = "Teammates' Performance vs Baseline
+When Lead Off Hits vs Misses") +
+  theme_minimal(base_size = 12) +
+  theme(legend.title = element_blank())
+# ggsave("/Users/anna/Desktop/plot.png", plot = plot, width = 8, height = 6, dpi = 300)
+```
+
+**Coach takeaway:** Bars above 0 mean teammates, on average, perform above their norms in that scenario.
+
+---
+
+# Relationship picture: meet‑level scatter
+
+```{r scatter, fig.height=4.5, fig.width=7}
+scatter_df <- routines_long %>%
+  group_by(Date, Event) %>%
+  summarize(
+    leadoff_resid = first(Resid[Position == min(Position, na.rm = TRUE)]),
+    follow_mean_resid = mean(Resid[Position >= 2], na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(scatter_df, aes(x = leadoff_resid, y = follow_mean_resid)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "lm", se = TRUE) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  geom_vline(xintercept = 0, linetype = 2) +
+  labs(x = "Lead-Off Residual (vs her norm)",
+       y = "Teammates' Mean Residual (positions 2–6)",
+       title = "When the Lead-Off Exceeds Her Norm, Do Teammates Rise Too?") +
+  theme_minimal(base_size = 12)
+```
+
+---
+
+# Notes for staff
+- A **residual** simply adjusts for each gymnast’s typical scoring level. We’re asking: *relative to her own norm*, did she lift the team?
+- Mixed‑effects modeling lets us compare across meets and athletes without over‑crediting the same athlete or meet conditions.
+- Use this in lineup talks: **If the effect is sizeable on Beam**, for example, build a Beam lead‑off who is consistent and confident—even if she’s not your highest ceiling scorer.
+
+```{r}
+library(readr); library(dplyr); library(scales)
+
+out_dir <- "lead_off_outputs"
+overall <- read_csv(file.path(out_dir, "mixed_model_summary.csv"), show_col_types = FALSE) %>%
+  filter(term == "leadoff_resid") %>%
+  transmute(est = estimate, lo = conf.low, hi = conf.high)
+
+ev <- read_csv(file.path(out_dir, "event_slopes.csv"), show_col_types = FALSE)
+
+followers <- 5  # number of teammates after leadoff (adjust if different)
+per_point <- 0.10  # we talk in “per +0.10 above norm”
+
+cat("\n=== Headline (overall) ===\n")
+with(overall, {
+  team_bump <- est * per_point * followers
+  cat(sprintf(
+    "When the leadoff is +%.2f above her norm, the average teammate is %+0.2f above her norm (95%% CI %+0.2f to %+0.2f).\n",
+    per_point, est*per_point, lo*per_point, hi*per_point))
+  cat(sprintf(
+    "That translates to about %+0.3f on the event total across the lineup (assuming %d followers).\n\n",
+    team_bump, followers))
+})
+
+cat("=== By event (most to least sensitive) ===\n")
+ev %>%
+  arrange(desc(estimate)) %>%
+  mutate(per_0.10 = estimate * per_point,
+         team_per_0.10 = per_0.10 * followers) %>%
+  transmute(
+    Event,
+    summary = sprintf(
+      "%s: +%.2f per +0.10 leadoff (95%% CI %+0.2f..%+0.2f) ⇒ ~%+0.3f team points",
+      Event, per_0.10, conf.low*per_point, conf.high*per_point, team_per_0.10)
+  ) %>%
+  pull(summary) %>%
+  cat(paste0(., "\n"))
+
+hit <- read_csv(file.path(out_dir, "hit_effect.csv"), show_col_types = FALSE)
+cat("\n=== Hit vs Miss (teammates' avg vs norm) ===\n")
+for (i in seq_len(nrow(hit))) {
+  row <- hit[i,]
+  cat(sprintf(
+    "%s: After HIT %+0.3f vs After MISS %+0.3f ⇒ Diff %+0.3f (≈ %+0.3f team points)\n",
+    row$Event,
+    row$mean_follow_resid_if_leadoff_hit,
+    row$mean_follow_resid_if_leadoff_miss,
+    row$diff,
+    row$diff * followers
+  ))
+}
+
+```
+
