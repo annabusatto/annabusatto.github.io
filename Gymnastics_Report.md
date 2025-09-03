@@ -81,9 +81,8 @@ The dataset for this report includes multiple sources covering physical performa
 
 *Tools used: R (tidyverse, lubridate, ggplot2, readxl), Excel, Power Point*
 
-**[➡️ Sample R Analysis Script](code/lead_off_impact.R)**<br>
-**[➡️ Sample R Report Script](code/LeadOff_Impact_Report.Rmd)**
-
+**[➡️ Sample R Analysis Script](https://github.com/annabusatto/annabusatto.github.io/blob/master/code/lead_off_impact.R)**<br> 
+**[➡️ Sample R Report Script]([https://github.com/annabusatto/annabusatto.github.io/blob/master/code/LeadOff_Impact_Report.Rmd])**
 
 
 
