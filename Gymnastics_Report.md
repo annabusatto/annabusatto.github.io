@@ -62,6 +62,12 @@ The dataset for this report includes multiple sources covering physical performa
 - Used z-scores to flag periods of abnormal performance or injury/treatment spikes.
 - Compared average competition scores and treatment rates across different training phases and injury status.
 - Conducted subgroup comparisons (e.g., by class year or lineup consistency) to explore variation in mental health or injury data.
+- Analyzed Lead-Off Routine Impact: A specific mixed-effects model was developed to quantify whether the first athlete in a lineup (the "lead-off") boosts or drags the performance of her teammates who follow.
+  - A residual score (actual score minus an athlete's personal baseline) was calculated for each routine.
+  - The Lead-Off Impact Slope was estimated to measure the relationship between the lead-off's residual score and the average residual scores of teammates in positions 2-6.
+  - The analysis revealed a statistically significant overall positive impact, indicating that when the lead-off performed better than her norm, her teammates also tended to perform better than their norms.
+
+The effect was found to be strongest on specific events, providing coaches with actionable insights on which events to prioritize a consistent and confident lead-off.
 
 ### 2.4 Reporting and Visualizations
 
