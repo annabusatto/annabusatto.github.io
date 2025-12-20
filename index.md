@@ -6,7 +6,7 @@
 
 [Closing the Window: A position-aware metric that quantifies how defenders reduce a receiver’s space and opportunity while the ball is in the air](https://kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/writeups/closing-the-window)
 
-<small>This project uses player-tracking data to measure defensive influence during the ball’s flight, capturing how coverage players restrict receiver options before the ball arrives. By modeling space, angles, and reachability frame-by-frame, it surfaces hidden defensive impact that traditional outcome-based metrics miss and connects late-window disruption to reduced completion rates.
+<small>Developed for the NFL Big Data Bowl 2026 (Analytics Track), this project uses player-tracking data to measure defensive influence during the ball’s flight, capturing how coverage players restrict receiver options before the ball arrives. By modeling space, angles, and reachability frame-by-frame, it surfaces hidden defensive impact that traditional outcome-based metrics miss and connects late-window disruption to reduced completion rates.
 </small>
 
 <img src="images/BDB/defenders_distribution.png?raw=true"/>
