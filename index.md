@@ -9,7 +9,7 @@
 <small>This project uses player-tracking data to measure defensive influence during the ball’s flight, capturing how coverage players restrict receiver options before the ball arrives. By modeling space, angles, and reachability frame-by-frame, it surfaces hidden defensive impact that traditional outcome-based metrics miss and connects late-window disruption to reduced completion rates.
 </small>
 
-<img src="images/CFB-training-load/dashboard.jpg?raw=true"/>
+<img src="images/BDB/defenders_distribution.png?raw=true"/>
 
 ---
 
