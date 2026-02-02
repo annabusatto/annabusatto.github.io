@@ -22,6 +22,16 @@
 
 ---
 
+[NBA Schedule Intensity & Recovery Stress Modeling (R Shiny App)](/ScheduleIntensity_Project)
+
+<small>
+Analysis of NBA schedule structure designed to quantify how game density, travel, and recovery windows contribute to cumulative workload stress across a season. The project introduces a schedule intensity framework and an interactive R Shiny app that allows users to explore schedule-driven stress patterns for any NBA team and season segment.
+</small>
+
+<img src="images/ScheduleIntensity/shiny_dashboard.png?raw=true"/>
+
+---
+
 [End-of-Year Performance Analysis for Collegiate Gymnastics](/Gymnastics_Report)
 
 <small>Project completed for a Division I collegiate gymnastics team, integrating competition scores, force plate metrics, injury logs, treatments, DEXA scans, and mental health data to highlight key performance trends and support planning around athlete health and readiness.</small>
