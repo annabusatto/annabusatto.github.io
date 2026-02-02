@@ -25,7 +25,7 @@
 [NBA Schedule Intensity & Recovery Stress Modeling (R Shiny App)](/ScheduleIntensity_Project)
 
 <small>
-Analysis of NBA schedule structure designed to quantify how game density, travel, and recovery windows contribute to cumulative workload stress across a season. The project introduces a schedule intensity framework and an interactive R Shiny app that allows users to explore schedule-driven stress patterns for any NBA team and season segment.
+Analysis of NBA schedules focused on quantifying how game density, travel, and recovery windows contribute to cumulative workload stress across a season. The project introduces a schedule intensity framework and an interactive R Shiny app that allows users to explore schedule-driven stress patterns for any NBA team over time.
 </small>
 
 <img src="images/ScheduleIntensity/shiny_dashboard.png?raw=true"/>
