@@ -5,7 +5,7 @@ This project analyzes NBA schedule structure to quantify how game density, trave
 
 An interactive R Shiny application was built to allow users to explore schedule-intensity patterns for any NBA team across the season.
 
-**[➡️ Launch Interactive R Shiny App]([https://annabusatto.shinyapps.io/nba-schedule-intensity](https://annabusatto.shinyapps.io/nba_schedule_intensity/)**  
+**[➡️ Launch Interactive R Shiny App](https://annabusatto.shinyapps.io/nba_schedule_intensity/)**
 
 
 ---
