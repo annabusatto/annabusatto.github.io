@@ -19,7 +19,7 @@ suppressPackageStartupMessages({
 })
 
 # -----------------------------
-# 1) Load data (replace path)
+# 1) Load data
 # -----------------------------
 # Expecting a flat table with at least:
 # - Position.Group
@@ -46,10 +46,10 @@ prep_group_data <- function(data, group_name, target = "Total.Player.Load",
   # Remove rows with missing values in any remaining columns
   d <- d %>% tidyr::drop_na()
 
-  # Remove leakage / redundant vars (based on your project)
+  # Remove leakage / redundant vars
   # NOTE: add or remove items here depending on what columns exist in your export
   drop_exact <- c(
-    # player-load-derived metrics (often redundant with target)
+    # player-load-derived metrics 
     "Average.Player.Load..Session.",
     "Average.Player.Load..1D.Fwd...Session.",
     "Average.Player.Load..1D.Side...Session.",
@@ -63,19 +63,19 @@ prep_group_data <- function(data, group_name, target = "Total.Player.Load",
     "Equivalent.Distance",
     "Period.Count",
     "Period.Number",
-    # exertion / ratio metrics (optional — keep if you want them in)
+    # exertion / ratio metrics
     "Exertion.Index",
     "Exertion.Index.Per.Minute",
     "Work.Rest.Ratio"
   )
 
-  # Remove columns you explicitly dropped in your analysis
+  # Remove columns explicitly dropped in analysis
   drop_all <- unique(c(drop_exact, drop_vars))
 
   d <- d %>%
     select(-any_of(drop_all))
 
-  # Remove bands / low / slow columns (you did this in your project)
+  # Remove bands / low / slow columns
   d <- d %>%
     select(-matches("Band\\.1|Band\\.2|Band\\.3|Low|Slow", ignore.case = TRUE))
 
@@ -94,8 +94,6 @@ fit_rf_importance <- function(d, target = "Total.Player.Load", ntree = 500, seed
   imp <- importance(rf)
   imp_df <- as.data.frame(imp) %>%
     tibble::rownames_to_column("feature") %>%
-    # default importance columns commonly include:
-    # "%IncMSE" and "IncNodePurity"
     arrange(desc(`%IncMSE`))
 
   list(model = rf, importance = imp_df)
@@ -127,7 +125,6 @@ results <- lapply(groups, function(g) {
     data = df,
     group_name = g,
     target = "Total.Player.Load",
-    # mirror your core logic: exclude Player.Load.Per.Minute from predictors
     drop_vars = c("Total.Player.Load", "Player.Load.Per.Minute")
   )
 
