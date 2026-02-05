@@ -15,7 +15,8 @@
 
 [Collegiate Football Training and Practice Loads](/FB_PlayerLoadProject)
 
-<small>Project completed for a DI collegiate Football Team, analyzing data to identify key drivers of player load by position, informing strategies    to optimize training and practice loads for enhanced player availability.
+<small>
+Applied analysis of training and practice load in Division I collegiate football, focused on identifying the primary drivers of total player load and player load per minute across positions. The project examines how different movement and intensity variables contribute to workload profiles, with the goal of supporting more efficient and sustainable training design.
 </small>
 
 <img src="images/CFB-training-load/dashboard.jpg?raw=true"/>
