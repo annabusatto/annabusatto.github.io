@@ -2,7 +2,7 @@
 
 ---
 
-### Sports Science & Analytics Projects 
+### Sports Science & Analytics Projects
 
 [Closing the Window: A position-aware metric that quantifies how defenders reduce a receiver’s space and opportunity while the ball is in the air](https://kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/writeups/closing-the-window)
 
