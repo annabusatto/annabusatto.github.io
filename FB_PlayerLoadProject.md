@@ -19,7 +19,7 @@ An initial feature selection process was conducted to identify variables most re
 
 Analyses were conducted at the positional-group level to account for the distinct movement profiles and physical demands associated with different roles. Separate modeling approaches were applied for total player load and player load per minute to differentiate between cumulative workload and intensity-based stress.
 
-Feature importance techniques were used to evaluate which GPS-derived variables most strongly contributed to workload outcomes within each positional group. This enabled direct comparison of workload drivers across groups such as skill positions, bigs, and linemen, highlighting position-specific patterns in training demands.
+Feature importance techniques were used to evaluate which GPS-derived variables most strongly contributed to workload outcomes within each positional group. This enabled direct comparison of workload drivers across different positional groups with distinct movement and workload profiles.
 
 ---
 
