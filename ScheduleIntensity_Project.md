@@ -31,7 +31,7 @@ A composite **Schedule Intensity Score** was calculated using:
 - Road games and travel clustering  
 - Rolling cumulative game density  
 
-All components were scaled to a common 0–100 range to allow comparison across teams and time.
+All components were standardized to allow comparison across teams and time.
 
 
 ### 2.2 Intensity Score Components & Level Definitions
