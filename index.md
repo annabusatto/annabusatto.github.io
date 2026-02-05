@@ -28,7 +28,7 @@
 Analysis of NBA schedules focused on quantifying how game density, travel, and recovery windows contribute to cumulative workload stress across a season. The project introduces a schedule intensity framework and an interactive R Shiny app that allows users to explore schedule-driven stress patterns for any NBA team over time.
 </small>
 
-<img src="images/ScheduleIntensity/shiny_dashboard.png?raw=true"/>
+<img src="images/ScheduleIntensity/dashboard_overview.png?raw=true"/>
 
 ---
 
