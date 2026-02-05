@@ -1,36 +1,51 @@
-## Analysis of Key Drivers of Total Player Load and Player Load per Minute for Collegiate Football Players
+## Analysis of Training and Practice Load in Division I Collegiate Football
 
-**Project description:** This project was conducted for a Division I collegiate football team to analyze and identify the key drivers of both total player load and player load per minute by position. The primary goal was to inform strategies for optimizing training and practice loads to enhance player availability, especially in light of a significant reduction in roster size from 120-130 players to 95-105 players, effective for the 2025-2026 season. With the roster size decreasing by approximately 20%, it is crucial to understand how to manage training and practice loads effectively to maintain player availability. By analyzing data on these variables, the project sought to provide actionable insights that could help in designing training programs that minimize the risk of injury and maximize player performance and availability.
-<br>
+**Project Description:**  
+This project analyzed training and practice load data from Division I collegiate football to identify the primary drivers of both total player load and player load per minute across positional groups. The objective was to better understand how different movement- and intensity-based variables contribute to workload accumulation, and how these contributions vary by position.
+
+Using GPS-derived metrics collected during training sessions and practices, the analysis focused on isolating which features most strongly influenced workload outcomes. Emphasis was placed on distinguishing between volume-driven load (total player load) and intensity-driven load (player load per minute) to provide a more nuanced view of training demands.
+
+---
 
 ### 1. Data Description
 
-The data used for this project includes:
+The primary dataset consisted of external workload data collected via Catapult GPS devices worn by players during training sessions and practices. Metrics captured key aspects of movement volume, speed, and intensity commonly used in football performance monitoring.
 
-*Catapult Data:* Data was collected using Catapult GPS devices worn by players during training sessions and games. The initial step in this project involved researching to identify key metrics that could be associated with total player load and player load per minute. This research focused on variables such as distance covered, acceleration/deceleration, high-speed efforts, and other relevant metrics. The intention was to determine the variables of interest in the analysis based on football-specific research, allowing us to create a more manageable dataset from the extensive range of variables available.
+An initial feature selection process was conducted to identify variables most relevant to player load outcomes. This step was informed by football-specific research and practical relevance, allowing the analysis to focus on a targeted subset of metrics from the broader Catapult variable set.
 
-<!--
-```javascript
-if (isAwesome){
-  return true
-}
-```
+---
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Analytical Approach
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Analyses were conducted at the positional-group level to account for the distinct movement profiles and physical demands associated with different roles. Separate modeling approaches were applied for total player load and player load per minute to differentiate between cumulative workload and intensity-based stress.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+Feature importance techniques were used to evaluate which GPS-derived variables most strongly contributed to workload outcomes within each positional group. This enabled direct comparison of workload drivers across groups such as skill positions, bigs, and linemen, highlighting position-specific patterns in training demands.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+---
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 3. Results and Interpretation
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Results demonstrated that the variables most strongly associated with workload differed meaningfully by position. Metrics related to movement intensity and high-load activity played a larger role in explaining player load per minute, while volume-related metrics contributed more heavily to total player load.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
--->
+These differences emphasize the importance of position-specific perspectives when evaluating training load, as identical training sessions can impose substantially different stress profiles depending on positional role.
+
+---
+
+### 4. Visualization and Reporting
+
+Findings were communicated through a combination of statistical summaries and interactive visualizations. Feature importance plots were used to clearly illustrate how workload drivers varied across positional groups, supporting interpretation and practical application.
+
+![Feature importance by position](images/CFB-training-load/dashboard.jpg?raw=true)
+*Figure: Relative importance of GPS-derived features for predicting player load per minute across positional groups.*
+
+---
+
+### 5. Practical Implications
+
+- Training load is driven by different factors depending on positional role, reinforcing the need for position-specific monitoring and interpretation.
+- Evaluating player load per minute provides additional insight beyond total workload by isolating intensity-driven stress.
+- Feature-based modeling offers a transparent framework for understanding how training design influences workload accumulation.
+
+---
+
+*Tools used: R (tidyverse, randomForest), Power BI, Catapult GPS exports*
