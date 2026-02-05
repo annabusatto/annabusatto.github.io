@@ -49,3 +49,5 @@ Findings were communicated through a combination of statistical summaries and in
 ---
 
 *Tools used: R (tidyverse, randomForest), Power BI, Catapult GPS exports*
+
+**[➡️ Sample R Script (Feature Importance Modeling)](https://github.com/annabusatto/annabusatto.github.io/blob/master/code/playerload.R)**
