@@ -3,7 +3,7 @@
 **Project Description:**  
 This project analyzes NBA schedule structure to quantify how game density, travel demands, and recovery windows interact to create cumulative workload stress over the course of a season. The goal was to develop a transparent, team-agnostic framework that can be applied across the league.
 
-An interactive R Shiny application was built to allow users to explore schedule-intensity patterns for any NBA team across the season.
+An interactive R Shiny application was built to allow users to explore schedule-intensity patterns for any NBA team across the season timeline.
 
 **[➡️ Launch Interactive R Shiny App](https://annabusatto.shinyapps.io/nba_schedule_intensity/)**
 
@@ -31,11 +31,34 @@ A composite **Schedule Intensity Score** was calculated using:
 - Road games and travel clustering  
 - Rolling cumulative game density  
 
-All components were standardized to allow comparison across teams and time.
+All components were scaled to a common 0–100 range to allow comparison across teams and time.
 
-### 2.2 Rolling Stress Accumulation
+
+### 2.2 Intensity Score Components & Level Definitions
+
+The Schedule Intensity Score is a 0–100 composite designed to capture schedule-driven stress using four interpretable components:
+
+- **Rest (35%)**: penalizes short recovery windows between games (highest penalty for 0–1 rest days)  
+- **Travel (25%)**: incorporates distance between consecutive game locations  
+- **Location (20%)**: applies an away-game penalty to reflect added travel and recovery constraints  
+- **Game Frequency (20%)**: captures congestion using the number of games played in the last 7 days  
+
+The final score is computed as a weighted sum of these four sub-scores.
+
+To improve interpretability, scores are grouped into discrete intensity bands:
+
+- **Low:** < 25  
+- **Moderate:** 25–49.9  
+- **High:** 50–74.9  
+- **Extremely High:** ≥ 75  
+
+The Shiny app also includes an option to calibrate travel scoring to the selected team-season by using percentile-based thresholds (50th/75th/95th percentiles), allowing travel to be interpreted relative to that team’s schedule context.
+
+
+### 2.3 Rolling Stress Accumulation
 
 - Rolling schedule intensity metrics were computed to capture compounding effects across consecutive games.
+- A 7-game rolling average was used to smooth short-term variability and highlight sustained periods of elevated schedule stress.
 - High-intensity stretches were identified where limited recovery persisted over time.
 
 ---
