@@ -18,7 +18,7 @@
 <small>
 Applied analysis of training and practice load in Division I collegiate football, focused on identifying the primary drivers of total player load and player load per minute across positions. The project examines how different movement and intensity variables contribute to workload profiles, with the goal of supporting more efficient and sustainable training design.
 </small>
-
+<br><br>
 <img src="images/CFB-training-load/dashboard.jpg?raw=true"/>
 
 ---
