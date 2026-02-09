@@ -56,7 +56,8 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 
 [Case Studies of Relationships Between Asymmetry, Performance, and Injuries](/FB_CaseStudies)
 
-<small>Study of two Division I collegiate football players, tracking asymmetry, performance, and injury data over multiple seasons to inform injury prevention and performance optimization approaches.
+<small>
+Longitudinal case studies of two Division I collegiate football players examining relationships between movement asymmetry, performance metrics, and injury events across multiple competitive seasons. Using force plate, GPS, NordBord, hydration, and injury data, the project explores how athlete-specific asymmetry and workload patterns evolve over time and highlights the value of individualized monitoring over population-level thresholds.
 </small>
 
 <img src="images/AthleteProfiling/playerLoad.jpg?raw=true"/>
