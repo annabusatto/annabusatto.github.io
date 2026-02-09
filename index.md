@@ -33,6 +33,28 @@ Analysis of NBA schedules focused on quantifying how game density, travel, and r
 
 ---
 
+[Context-Neutral Vertical Bat Angle Modeling from Swing-Level Tracking Data](/VerticalBatAngle_Project)
+
+<small>
+This project develops a context-neutral estimate of hitters’ intrinsic vertical bat angle by separating swing mechanics from pitch-level context such as location, velocity, movement, count, and pitch type. A mixed-effects modeling framework is used to stabilize estimates across uneven sample sizes and produce interpretable batter-side benchmarks that are robust to situational noise. The resulting adjusted bat-angle estimates are explored in relation to batted-ball and plate-discipline metrics to inform player evaluation, development, and advance scouting.
+</small>
+
+<img src="images/Baseball/VBA_distribution.png?raw=true"/>
+
+---
+
+
+[Drive-Foot Force-Plate Profiling and Pitch Velocity](/Pitching_ForcePlate_Project)
+
+<small>
+Analysis of high-frequency force-plate data focused on characterizing how drive-foot force and torque profiles relate to pitch velocity. The project extracts interpretable biomechanical features including peak forces, rate of force development, impulses, and timing relative to ball release, with all forces normalized by body weight and aligned to a common mechanical reference point. Results highlight the importance of force timing and explosiveness over magnitude alone and demonstrate how complex time-series biomechanics can be translated into coach-facing, actionable insights.
+</small>
+
+<img src="images/Baseball/force_profile_example.png?raw=true"/>
+
+---
+
+
 [Longitudinal Force Plate Profiling of Asymmetry and Performance in Collegiate Athletes](/AthleteProfiling_ForcePlate)
 
 <small>
