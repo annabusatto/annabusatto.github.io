@@ -124,9 +124,6 @@ To improve interpretability:
 - Metrics were averaged per athlete per year
 - Individual trajectories were visualized within specific sports (e.g., men’s and women’s basketball)
 
-<img src="images/AthleteProfiling/individual_basketball.png?raw=true"/>
-<img src="images/AthleteProfiling/basketball_avg_example.png?raw=true"/>
-
 ---
 
 ## Key Takeaways
