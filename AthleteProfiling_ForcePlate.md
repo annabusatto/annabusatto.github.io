@@ -3,12 +3,12 @@
 
 ### Project Overview
 
-This project examined **longitudinal changes in force-plate–derived asymmetry and performance metrics** in Division I collegiate athletes across multiple sports. Using countermovement jump (CMJ) and single-leg jump data collected between 2020–2025, the analysis focused on athletes with **three or more years in the program**, allowing for within-athlete comparisons across seasons rather than single time-point evaluations.
+This project examined longitudinal changes in force-plate–derived asymmetry and performance metrics in Division I collegiate athletes across multiple sports. Using countermovement jump (CMJ) and single-leg jump data collected between 2020–2025, the analysis focused on athletes with three or more years in the program, allowing for within-athlete comparisons across seasons rather than single time-point evaluations.
 
 The primary goals were to:
 - Characterize how asymmetry metrics behave over time  
 - Evaluate whether asymmetry meaningfully relates to performance outputs  
-- Identify where **group-level analysis is limited** and **individual monitoring becomes most informative**
+- Identify where group-level analysis is limited and individual monitoring becomes most informative
 
 ---
 
@@ -100,13 +100,13 @@ Male athletes tended to display more extreme asymmetry outliers, while female at
 The relationship between asymmetry metrics and performance outputs was assessed using correlation and regression analyses.
 
 Findings:
-- Correlations between asymmetry and performance metrics were generally **low and slightly negative**  
+- Correlations between asymmetry and performance metrics were generally low and slightly negative
 - Results were consistent across:
   - The full cohort  
   - Male vs female athletes  
   - Individual sports with the largest samples (football, lacrosse, swim & dive)  
 
-Overall, higher asymmetry did **not** reliably correspond to reduced performance at the group level.
+Overall, higher asymmetry did not reliably correspond to reduced performance at the group level.
 
 <img src="images/AthleteProfiling/asymmetry-performace-metrics-correlation_heatmap.png?raw=true"/>
 <img src="images/AthleteProfiling/scatter_Concentric_Mean_Force_Asymmetry_vs_RSI-modified.png?raw=true"/>
@@ -115,7 +115,7 @@ Overall, higher asymmetry did **not** reliably correspond to reduced performance
 
 ### 5. Individual-Level Longitudinal Analysis
 
-As group-level trends flattened, the most informative insights emerged from **individual athlete monitoring**.
+As group-level trends flattened, the most informative insights emerged from individual athlete monitoring.
 
 Key observations:
 - Athletes within the same sport often exhibited very different asymmetry trajectories  
@@ -123,7 +123,7 @@ Key observations:
 - Sudden deviations from an athlete’s own baseline were more meaningful than absolute asymmetry magnitude  
 
 To improve interpretability:
-- Metrics were averaged **per athlete per year**
+- Metrics were averaged per athlete per year
 - Individual trajectories were visualized within specific sports (e.g., men’s and women’s basketball)
 
 <img src="images/AthleteProfiling/individual_basketball.png?raw=true"/>
@@ -135,8 +135,8 @@ To improve interpretability:
 
 - Asymmetry metrics show strong internal structure but weak relationships with performance at the group level  
 - Sex and sport differences exist, but overall trends remain consistent  
-- **Individual longitudinal analysis provides the clearest signal** for applied monitoring  
-- Asymmetry is best interpreted as a **contextual monitoring variable**, not a standalone risk or performance indicator  
+- Individual longitudinal analysis provides the clearest signal for applied monitoring  
+- Asymmetry is best interpreted as a contextual monitoring variable, not a standalone risk or performance indicator  
 
 ---
 
@@ -144,7 +144,7 @@ To improve interpretability:
 
 - Population-based asymmetry thresholds may be misleading  
 - Athlete-specific baselines are more informative than cross-sectional comparisons  
-- Force plate data is most valuable when used for **trend monitoring and decision support**, not binary screening  
+- Force plate data is most valuable when used for trend monitoring and decision support, not binary screening  
 
 ---
 
