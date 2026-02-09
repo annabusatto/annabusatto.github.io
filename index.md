@@ -33,16 +33,6 @@ Analysis of NBA schedules focused on quantifying how game density, travel, and r
 
 ---
 
-[End-of-Year Performance Analysis for Collegiate Gymnastics](/Gymnastics_Report)
-
-<small>Project completed for a Division I collegiate gymnastics team, integrating competition scores, force plate metrics, injury logs, treatments, DEXA scans, and mental health data to highlight key performance trends and support planning around athlete health and readiness.</small>
-
-<img src="images/Gymnastics/overview-figure.png?raw=true"/>
-*Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
-
-
----
-
 [Longitudinal Force Plate Profiling of Asymmetry and Performance in Collegiate Athletes](/AthleteProfiling_ForcePlate)
 
 <small>
@@ -61,6 +51,16 @@ Longitudinal case studies of two Division I collegiate football players examinin
 </small>
 
 <img src="images/AthleteProfiling/playerLoad.jpg?raw=true"/>
+
+---
+
+
+[End-of-Year Performance Analysis for Collegiate Gymnastics](/Gymnastics_Report)
+
+<small>Project completed for a Division I collegiate gymnastics team, integrating competition scores, force plate metrics, injury logs, treatments, DEXA scans, and mental health data to highlight key performance trends and support planning around athlete health and readiness.</small>
+
+<img src="images/Gymnastics/overview-figure.png?raw=true"/>
+*Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
 
 ---
 
