@@ -43,9 +43,11 @@ Analysis of NBA schedules focused on quantifying how game density, travel, and r
 
 ---
 
+
 [Collegiate Athletes Force Plate Analysis](/AthleteProfiling_ForcePlate)
 
-<small>Project conducted on male and female Division I collegiate athletes from various sports, analyzing asymmetry changes over 3+ years to identify injury risk and optimize performance.
+<small>
+Longitudinal analysis of force plate–derived asymmetry and performance metrics in male and female Division I collegiate athletes across multiple sports. Using countermovement and single-leg jump data collected between 2020–2025, the project examines how asymmetry evolves over time, compares trends across sports and sex, and evaluates relationships between asymmetry and performance outputs. Results highlight consistent structure in asymmetry metrics, weak group-level associations with performance, and the importance of individual athlete monitoring for applied decision-making.
 </small>
 
 <img src="images/AthleteProfiling/asymmetry.jpg?raw=true"/>
