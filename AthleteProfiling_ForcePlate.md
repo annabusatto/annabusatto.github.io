@@ -1,5 +1,5 @@
-## Collegiate Athletes Force Plate Analysis  
-*Longitudinal asymmetry profiling across sports, sex, and competitive seasons*
+## Longitudinal Force Plate Profiling of Asymmetry and Performance  
+*Collegiate athletes across sports, sex, and competitive seasons*
 
 ### Project Overview
 
