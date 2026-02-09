@@ -75,10 +75,10 @@ This project followed an athlete-centered, longitudinal case study approach, pri
 
 ## Key Observations from the Case Studies
 
-- Injury events tended to occur during **periods of rapid change** in workload (Total Player Load and Player Load per Minute) rather than during periods of consistently high load.
+- Injury events tended to occur during periods of rapid change in workload (Total Player Load and Player Load per Minute) rather than during periods of consistently high load.
 - Force plate–derived performance metrics (e.g., jump height, countermovement depth) often peaked near injury events, indicating that high output alone may coexist with elevated injury risk.
-- NordBord asymmetry metrics were most informative when interpreted as **short-term changes from baseline**, even when absolute asymmetry magnitude was decreasing.
-- The two athletes demonstrated **distinct asymmetry–injury relationships** despite similar testing protocols and positional demands.
+- NordBord asymmetry metrics were most informative when interpreted as short-term changes from baseline, even when absolute asymmetry magnitude was decreasing.
+- The two athletes demonstrated distinct asymmetry–injury relationships despite similar testing protocols and positional demands.
 - Hydration status (urine-specific gravity) did not show a clear or consistent relationship with injury events in these cases.
 
 ---
