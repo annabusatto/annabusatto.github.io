@@ -64,10 +64,10 @@ Key observations:
 - Differences persisted despite normalization by body mass  
 - Performance distributions aligned with expected sport-specific demands  
 
-<img src="images/AthleteProfiling/Concentric_Peak_Force___BM_N_kg_comparison_histogram.png?raw=true"/>
-<img src="images/AthleteProfiling/Eccentric_Peak_Force___BM_N_kg_comparison_histogram.png?raw=true"/>
-<img src="images/AthleteProfiling/Peak_Power___BM_W_kg_comparison_histogram.png?raw=true"/>
-<img src="images/AthleteProfiling/RSI-modified_m_s_comparison_histogram.png?raw=true"/>
+<img src="images/AthleteProfiling/Concentric_Peak_Force.png?raw=true"/>
+<img src="images/AthleteProfiling/Eccentric_Peak_Force.png?raw=true"/>
+<img src="images/AthleteProfiling/Peak_Power.png?raw=true"/>
+<img src="images/AthleteProfiling/RSI-modified.png?raw=true"/>
 
 ---
 
@@ -89,8 +89,6 @@ Notable linear relationships emerged between:
 
 Male athletes tended to display more extreme asymmetry outliers, while female athletes showed tighter clustering around the mean.
 
-<img src="images/AthleteProfiling/asymmetry_clusters_pairplot.png?raw=true"/>
-<img src="images/AthleteProfiling/sports_asymmetry_clusters_pairplot_fixed.png?raw=true"/>
 <img src="images/AthleteProfiling/gender_asymmetry_clusters_pairplot.png?raw=true"/>
 
 ---
