@@ -1,1 +1,118 @@
+---
+layout: page
+title: Context-Neutral Vertical Bat Angle Modeling
+permalink: /VerticalBatAngle_Project/
+---
 
+## Context-Neutral Vertical Bat Angle Modeling from Swing-Level Tracking Data
+
+**Project Description:**  
+This project estimates a context-neutral (intrinsic) Vertical Bat Angle (VBA) for each batter-side by separating swing-plane tendencies from pitch-level factors that influence observed bat angle. The goal is to produce stable, interpretable batter-side benchmarks that are not overly sensitive to pitch location, pitch type, velocity, or count context.
+
+The adjusted VBA estimates are then explored in relation to batter-side performance metrics to assess whether certain swing-plane tendencies are associated with consistent differences in batted-ball outcomes or approach metrics, and how these insights could be used in player evaluation, development, or advance scouting.
+
+> **Public portfolio note:** All identifiers, raw datasets, and any player-level leaderboards are excluded from this public version. Visuals shown are aggregated/anonymized.
+
+---
+
+## 1. Data Description
+
+### 1.1 Swing-Level Tracking Inputs  
+Each row represents a swing with pitch context and bat path information, including:
+- **Vertical Bat Angle (VBA)** (response variable; degrees, more negative = steeper)
+- Pitch context features (examples):
+  - pitch location (horizontal/vertical)
+  - pitch velocity
+  - movement / spin
+  - count (balls/strikes)
+  - pitch type
+- Batter-side grouping (batter × stance)
+
+### 1.2 Batter-Side Performance Metrics  
+A second table contains batter-side performance metrics (one row per batter-side), including:
+- batted-ball quality proxies (e.g., peak EV, hard-hit rates/angles)
+- plate approach metrics (e.g., chase/contact above expectation)
+- launch-angle consistency (e.g., SD of launch angle)
+
+---
+
+## 2. Analytical Approach
+
+### 2.1 Why “context-neutral” VBA?  
+Observed VBA on a given swing reflects both:
+- **hitter swing-plane tendencies**, and  
+- **situational adjustments** driven by pitch shape/location/velocity and count
+
+A simple average VBA can be biased by differences in the pitch environments hitters face. This analysis aims to isolate the hitter-side component by adjusting for pitch context.
+
+### 2.2 Mixed-Effects Modeling (Shrinkage for Stability)  
+To estimate intrinsic VBA while stabilizing small-sample hitters, I used a mixed-effects model with:
+- **Fixed effects:** pitch context + pitch type  
+- **Random intercept:** batter-side (batter × stance)
+
+Conceptually:
+
+\[
+\text{VBA}_{ij} = \beta_0 + \beta^\top X_{ij} + u_{\text{batter-side}} + \epsilon_{ij}
+\]
+
+This approach naturally shrinks low-sample hitter estimates toward the population mean, producing more reliable batter-side benchmarks.
+
+### 2.3 Output Metric  
+Primary deliverable:
+- **Adjusted (context-neutral) VBA** per batter-side  
+- plus a swing-count field for context/reliability
+
+Interpretation:
+- **More negative adjusted VBA → steeper intrinsic swing plane**
+- **Less negative adjusted VBA → flatter intrinsic swing plane**
+
+---
+
+## 3. Results & Interpretation
+
+### 3.1 What drives observed VBA?  
+Pitch location (especially vertical location), pitch type, and velocity can meaningfully shift observed bat angle. Modeling these effects helps separate:
+- *situation-driven variation* (pitch context), from  
+- *persistent differences* (intrinsic batter-side tendency)
+
+### 3.2 Intrinsic VBA vs Performance Metrics  
+After producing adjusted VBA estimates, I explored relationships between intrinsic swing plane and batter-side performance metrics.
+
+**Key interpretation theme:**  
+VBA is a mechanical trait; many performance outcomes are multi-factor, so relationships may be weak at the population level. Still, directional patterns can be useful for:
+- mechanical benchmarking and swing-change monitoring
+- identifying hitter profiles that may align better with certain pitch environments
+- framing development targets (consistency vs variability, plane matching, etc.)
+
+---
+
+## 4. Visualization and Reporting
+
+**Figure 1: Distribution of adjusted VBA (anonymized)**  
+<img src="/images/Baseball/VBA_distribution.png?raw=true" width="900"/>
+
+**Figure 2: Example relationship — adjusted VBA vs launch-angle variability (anonymized)**  
+<img src="/images/Baseball/VBA_vs_SDLaunch.png?raw=true" width="900"/>
+
+*(These figures are intentionally presented without player identifiers or leaderboards.)*
+
+---
+
+## 5. Practical Implications
+
+- **Player evaluation:** adjusted VBA provides a fairer comparison across hitters than raw averages by reducing pitch-environment bias  
+- **Player development:** intrinsic VBA can serve as a mechanical benchmark to track swing changes over time (paired with batted-ball goals)  
+- **Advance scouting:** pairing intrinsic VBA with opponent pitch profiles can help frame matchups (e.g., plane matching vs pitch shape/location trends)
+
+---
+
+## 6. Tools Used
+*Python (pandas, numpy, statsmodels, matplotlib)*
+
+---
+
+## 7. Sample Code (Mixed-Effects Modeling + Adjustment)
+**[➡️ Sample Python Script (Mixed-Effects VBA Modeling)](/code/vba_mixed_effects_sample.py)**
+
+*(Public-safe excerpt; full pipeline and raw data are excluded.)*
