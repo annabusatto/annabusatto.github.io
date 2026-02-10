@@ -1,8 +1,8 @@
-## Data Science & Analytics Portfolio
+## Sports Data Science & Analytics Portfolio
 
 ---
 
-### Sports Science & Analytics Projects
+### Football
 
 [Closing the Window: A position-aware metric that quantifies how defenders reduce a receiver’s space and opportunity while the ball is in the air](https://kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/writeups/closing-the-window)
 
@@ -23,6 +23,18 @@ Applied analysis of training and practice load in Division I collegiate football
 
 ---
 
+[Case Studies of Asymmetry, Performance, and Injury in Collegiate Football Players](/FB_CaseStudies)
+
+<small>
+Longitudinal case studies of two Division I collegiate football players examining relationships between movement asymmetry, performance metrics, and injury events across multiple competitive seasons. Using force plate, GPS, NordBord, hydration, and injury data, the project explores how athlete-specific asymmetry and workload patterns evolve over time and highlights the value of individualized monitoring over population-level thresholds.
+</small>
+
+<img src="images/AthleteProfiling/playerLoad.jpg?raw=true"/>
+
+---
+
+### Basketball
+
 [NBA Schedule Intensity & Recovery Stress Modeling (R Shiny App)](/ScheduleIntensity_Project)
 
 <small>
@@ -32,6 +44,8 @@ Analysis of NBA schedules focused on quantifying how game density, travel, and r
 <img src="images/ScheduleIntensity/dashboard_overview.png?raw=true"/>
 
 ---
+
+### Baseball
 
 [Context-Neutral Vertical Bat Angle Modeling from Swing-Level Tracking Data](/VerticalBatAngle_Project)
 
@@ -43,7 +57,6 @@ This project develops a context-neutral estimate of hitters’ intrinsic vertica
 
 ---
 
-
 [Drive-Foot Force-Plate Profiling and Pitch Velocity](/Pitching_ForcePlate_Project)
 
 <small>
@@ -54,6 +67,7 @@ Analysis of high-frequency force-plate data focused on characterizing how drive-
 
 ---
 
+### Other Sports
 
 [Longitudinal Force Plate Profiling of Asymmetry and Performance in Collegiate Athletes](/AthleteProfiling_ForcePlate)
 
@@ -63,16 +77,6 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 
 <img src="images/AthleteProfiling/asymmetry.jpg?raw=true"/>
 
----
-
-
-[Case Studies of Asymmetry, Performance, and Injury in Collegiate Football Players](/FB_CaseStudies)
-
-<small>
-Longitudinal case studies of two Division I collegiate football players examining relationships between movement asymmetry, performance metrics, and injury events across multiple competitive seasons. Using force plate, GPS, NordBord, hydration, and injury data, the project explores how athlete-specific asymmetry and workload patterns evolve over time and highlights the value of individualized monitoring over population-level thresholds.
-</small>
-
-<img src="images/AthleteProfiling/playerLoad.jpg?raw=true"/>
 
 ---
 
@@ -84,13 +88,6 @@ Longitudinal case studies of two Division I collegiate football players examinin
 <img src="images/Gymnastics/overview-figure.png?raw=true"/>
 *Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
 
----
-
-**Basketball & Baseball Analytics (Coming Soon)**
-
-<small>
-More basketball and baseball analytics projects coming soon — the analysis is done, the write-ups are catching up.
-</small>
 
 
 
