@@ -49,6 +49,7 @@ Most relationships were modest, reinforcing that VBA functions primarily as a me
 - framing individualized development targets  
 
 <img src="images/Baseball/VBA_distribution.png?raw=true"/>
+
 *Relationship between intrinsic vertical bat angle and launch-angle variability.*
 
 ---
