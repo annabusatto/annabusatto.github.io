@@ -62,12 +62,6 @@ Most relationships were modest, reinforcing that VBA functions primarily as a me
 
 ---
 
-## 5. Tools Used
-
-*Python (pandas, numpy, statsmodels, matplotlib)*
-
----
-
-## 6. Sample Code
+*Tools used: Python (pandas, numpy, statsmodels, matplotlib)*
 
 **[➡️ Sample Python Script (Mixed-Effects VBA Modeling)](https://github.com/annabusatto/annabusatto.github.io/blob/master/code/vba_mixed_effects_sample.py)**
