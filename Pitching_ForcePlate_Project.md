@@ -41,12 +41,12 @@ This ensured that comparisons reflected mechanically meaningful phases of the de
 
 Per-pitch mechanical features were extracted from the drive-foot force and torque profiles:
 
-- **Peak Forward Force (FY/BW)**  
-- **Peak Vertical Force (FZ/BW)**  
-- **Peak Rotational Torque (TZ)**  
-- **Rate of Force Development (RFD)**  
-- **Forward and Vertical Impulse**  
-- **Time to Peak Forward Force**
+- Peak Forward Force (FY/BW)  
+- Peak Vertical Force (FZ/BW)  
+- Peak Rotational Torque (TZ)  
+- Rate of Force Development (RFD)  
+- Forward and Vertical Impulse 
+- Time to Peak Forward Force
 
 These features were designed to quantify:
 
