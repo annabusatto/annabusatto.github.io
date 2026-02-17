@@ -1,7 +1,7 @@
 ## Drive-Foot Force-Plate Profiling and Pitch Velocity
 
 **Project Description:**  
-This project analyzes high-frequency drive-foot force plate data to characterize how lower-body force production and timing relate to pitch velocity. The objective was to translate raw time-series force and torque data into interpretable biomechanical features that explain why some pitchers throw harder than others.
+This project analyzes high-frequency drive-foot force plate data to characterize how lower-body force production and timing relate to pitch velocity. The objective was to translate raw time-series force and torque data into interpretable biomechanical features that explain mechanical differences associated with higher pitch velocity.
 
 The analysis emphasizes feature extraction, timing alignment, and interpretable modeling, with a focus on producing coach-facing outputs that connect mechanical traits to velocity outcomes.
 
@@ -85,11 +85,11 @@ To translate time-series force data into interpretable mechanical traits, averag
 
 <img src="images/Baseball/force_profile_example_bad.png?raw=true"/>
 *Example B: Less coordinated profile with earlier or more irregular force peaks and greater variability approaching release (anonymized).*
-
+<br><br>
 
 In more coordinated profiles, forward drive force builds progressively, peaks closer to release, and transitions smoothly into unloading. This pattern suggests efficient momentum transfer and sequencing through the kinetic chain.
 
-In less coordinated profiles, force peaks may occur earlier, fluctuate irregularly, or decouple from the rotational component of the delivery. These patterns can indicate less efficient energy transfer or inconsistent lower-body timing.
+In less coordinated profiles, force peaks may occur earlier, fluctuate irregularly, or decouple from the rotational component of the delivery. These patterns suggest less efficient energy transfer or inconsistent lower-body sequencing.
 
 These differences reinforce a central theme of the analysis: velocity is influenced not only by the magnitude of force production, but by how effectively and how late that force is developed relative to ball release.
 
