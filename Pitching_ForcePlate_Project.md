@@ -73,6 +73,7 @@ Key findings:
 - Rotational torque contributed modestly, suggesting lower-body rotation plays a complementary role  
 
 Overall, the timing and explosiveness of force production appeared more important than magnitude alone.
+Examining full force–time curves provides additional insight into how these timing differences manifest across pitchers.
 
 ---
 
