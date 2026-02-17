@@ -76,26 +76,22 @@ Overall, the timing and explosiveness of force production appeared more importan
 
 ---
 
-### 3.2 Force–Time Profile Comparisons
+### 3.2 Force–Time Profile Archetypes (Aligned to Ball Release)
 
-Average force-time curves were generated for pitchers and aligned to ball release.
+To translate time-series force data into interpretable mechanical traits, average drive-foot force profiles were aligned to ball release (t = 0). Rather than focusing solely on summary metrics, examining the full force–time curve highlights how timing, smoothness, and coordination differ across pitchers.
 
 <img src="images/Baseball/force_profile_example.png?raw=true"/>
-*Example drive-foot forward force profile aligned to ball release (anonymized).*
+*Example A: Coordinated force buildup with a clear propulsion peak occurring closer to release (anonymized).*
 
-Higher-velocity pitchers tended to exhibit:
+<img src="images/Baseball/force_profile_example_bad.png?raw=true"/>
+*Example B: Less coordinated profile with earlier or more irregular force peaks and greater variability approaching release (anonymized).*
 
-- smoother, coordinated force buildup  
-- forward-force peaks occurring closer to release  
-- more synchronized force and torque patterns  
 
-Lower-velocity pitchers often showed:
+In more coordinated profiles, forward drive force builds progressively, peaks closer to release, and transitions smoothly into unloading. This pattern suggests efficient momentum transfer and sequencing through the kinetic chain.
 
-- earlier or irregular torque peaks  
-- less coordinated timing between force and rotation  
-- greater variability across pitches  
+In less coordinated profiles, force peaks may occur earlier, fluctuate irregularly, or decouple from the rotational component of the delivery. These patterns can indicate less efficient energy transfer or inconsistent lower-body timing.
 
-These profile differences emphasize sequencing and coordination rather than raw force magnitude.
+These differences reinforce a central theme of the analysis: velocity is influenced not only by the magnitude of force production, but by how effectively and how late that force is developed relative to ball release.
 
 ---
 
