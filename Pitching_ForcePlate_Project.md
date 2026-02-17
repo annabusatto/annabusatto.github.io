@@ -43,7 +43,7 @@ Per-pitch mechanical features were extracted from the drive-foot force and torqu
 
 - **Peak Forward Force (FY/BW)**  
 - **Peak Vertical Force (FZ/BW)**  
-- **Peak Rotational Torque (|TZ|)**  
+- **Peak Rotational Torque (TZ)**  
 - **Rate of Force Development (RFD)**  
 - **Forward and Vertical Impulse**  
 - **Time to Peak Forward Force**
@@ -67,7 +67,7 @@ Linear modeling revealed moderate but meaningful relationships between drive-foo
 
 Key findings:
 
-- Higher **Rate of Force Development (RFD)** was positively associated with velocity  
+- Higher Rate of Force Development (RFD) was positively associated with velocity  
 - Peak forward force showed directional association with velocity  
 - Total forward impulse was less predictive than timing and explosiveness  
 - Rotational torque contributed modestly, suggesting lower-body rotation plays a complementary role  
@@ -98,9 +98,9 @@ These differences reinforce a central theme of the analysis: velocity is influen
 
 ## 4. Practical Implications
 
-- **Explosiveness over volume:** Rapid force development is more influential than total impulse accumulation  
-- **Timing matters:** Synchronizing force peaks closer to release improves energy transfer  
-- **Coordination is critical:** Forward force and rotational torque must align temporally  
+- Explosiveness over volume: Rapid force development is more influential than total impulse accumulation  
+- Timing matters: Synchronizing force peaks closer to release improves energy transfer  
+- Coordination is critical: Forward force and rotational torque must align temporally  
 
 These findings support development strategies focused on:
 
