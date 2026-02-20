@@ -1,4 +1,11 @@
-## Sports Data Science & Analytics Portfolio
+# Portfolio
+
+**Explore:** [🏈 Sports Data Science & Analytics](#sports) • [🎓 PhD Research & Publications](#phd)
+
+---
+
+<a id="sports"></a>
+## Sports Data Science & Analytics
 
 ---
 
@@ -90,7 +97,8 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 
 ---
 
-## PhD Research & Publications  
+<a id="phd"></a>
+## PhD Research & Publications
 
 My doctoral research focused on cardiovascular electrophysiology and the mechanisms underlying sudden cardiac death. Through controlled experimental models, I investigated how conduction system abnormalities and ischemic trigger events contribute to arrhythmogenesis.
 
