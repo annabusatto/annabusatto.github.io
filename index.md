@@ -103,7 +103,12 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 *Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
 <br>
 
-[⬆️ Back to top](#top)
+<div style="text-align:right; margin-top: 20px;">
+  <a href="#top" style="font-size: 0.9em; text-decoration: none; opacity: 0.75;">
+    Back to top ↑
+  </a>
+</div>
+
 ---
 
 <a id="phd"></a>
@@ -188,8 +193,11 @@ Developed a polynomial chaos expansion (PCE)–based uncertainty quantification 
 - Characterized spatial heterogeneity in activation-time variance  
 - Established CV parameter-prioritization strategies
 
-<br>
-[⬆️ Back to top](#top)
+<div style="text-align:right; margin-top: 20px;">
+  <a href="#top" style="font-size: 0.85em; text-decoration: none; color: #666;">
+    Back to top ↑
+  </a>
+</div>
 
 <!-- ### Category Name 2
 
