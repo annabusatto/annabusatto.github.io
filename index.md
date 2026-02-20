@@ -96,8 +96,7 @@ My doctoral research focused on cardiovascular electrophysiology and the mechani
 
 This work required rigorous experimental design, high-fidelity physiological data collection, quantitative analysis, and reproducible validation practices.
 
-🔗 **Google Scholar:**  
-https://scholar.google.com/citations?user=2RCONMQAAAAJ&hl=en
+🔗 [Google Scholar](https://scholar.google.com/citations?user=2RCONMQAAAAJ&hl=en)
 
 ---
 
