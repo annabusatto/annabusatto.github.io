@@ -1,6 +1,8 @@
 <a id="top"></a>
 # Portfolio
 
+Applied sports analytics and biomechanics projects alongside doctoral research in uncertainty quantification, inverse modeling, and machine learning for physiological systems.
+
 **Explore:**
 <br>
 [🏈 Sports Data Science & Analytics](#sports)
