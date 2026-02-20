@@ -1,12 +1,18 @@
 title: Anna Busatto # your name (or website title) here
 logo: "/images/Anna_headshot.png?raw=true" # your photo (or logo) here
-description: >
-  <div class="justify-text">
-    Hello, I’m Anna Busatto, a biomedical engineer (recent PhD graduate) and data scientist specializing in biomechanics, uncertainty quantification, inverse modeling, and machine learning for physiological systems. My work spans applied sports analytics and computational electrophysiology, translating high-dimensional data into interpretable, decision-ready insights.
-    <br><br>
-    <a href="https://www.linkedin.com/in/annabusatto/">View My LinkedIn Profile</a>
-  </div>
+#description: >
+ # <div class="justify-text">
+   # Hello, I’m Anna Busatto, a biomedical engineer (recent PhD graduate) and data scientist specializing in biomechanics, uncertainty quantification, inverse modeling, and machine learning for physiological systems. My work spans applied sports analytics and computational electrophysiology, translating high-dimensional data into interpretable, decision-ready insights.
+    #<br><br>
+    #<a href="https://www.linkedin.com/in/annabusatto/">View My LinkedIn Profile</a>
+ # </div>
 
+description: >
+  Hello, I’m Anna Busatto, a biomedical engineer (recent PhD graduate) and data scientist specializing in biomechanics, uncertainty quantification, inverse modeling, and machine learning for physiological systems. My work spans applied sports analytics and computational electrophysiology, translating high-dimensional data into interpretable, decision-ready insights.
+  <br><br>
+  <a href="https://www.linkedin.com/in/annabusatto/">LinkedIn</a> ·
+  <a href="https://github.com/annabusatto">GitHub</a>
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
