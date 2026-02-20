@@ -1,6 +1,10 @@
 # Portfolio
 
-**Explore:** [🏈 Sports Data Science & Analytics](#sports) • [🎓 PhD Research & Publications](#phd)
+**Explore:**
+<br>
+[🏈 Sports Data Science & Analytics](#sports)
+<br>
+[🎓 PhD Research & Publications](#phd)
 
 ---
 
