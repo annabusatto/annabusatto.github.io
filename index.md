@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Portfolio
 
 **Explore:**
@@ -98,11 +99,15 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 
 <img src="images/Gymnastics/overview-figure.png?raw=true"/>
 *Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
+<br>
 
+<small>[⬆️ Back to top](#top)</small>
 ---
 
 <a id="phd"></a>
 ## PhD Research & Publications
+
+---
 
 My doctoral research focused on cardiovascular electrophysiology and the mechanisms underlying sudden cardiac death. Through controlled experimental models, I investigated how conduction system abnormalities and ischemic trigger events contribute to arrhythmogenesis.
 
@@ -179,7 +184,10 @@ Developed a polynomial chaos expansion (PCE)–based uncertainty quantification 
 - Sobol global sensitivity analysis  
 - Large-scale eikonal simulations  
 - Characterized spatial heterogeneity in activation-time variance  
-- Established CV parameter-prioritization strategies  
+- Established CV parameter-prioritization strategies
+
+<br>
+<small>[⬆️ Back to top](#top)</small>
 
 <!-- ### Category Name 2
 
