@@ -104,7 +104,7 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 <br>
 
 <div style="text-align:right; margin-top: 20px;">
-  <a href="#top" style="font-size: 0.9em; text-decoration: none; opacity: 0.75;">
+  <a href="#top" style="font-size: 0.85em; text-decoration: none; color: #666;">
     Back to top ↑
   </a>
 </div>
