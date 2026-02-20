@@ -88,8 +88,89 @@ Longitudinal analysis of force plate–derived asymmetry and performance metrics
 <img src="images/Gymnastics/overview-figure.png?raw=true"/>
 *Figure 1: Injury percentage by phase and weekly treatment frequency for the season.*
 
+---
 
+## PhD Research & Publications  
 
+My doctoral research focused on cardiovascular electrophysiology and the mechanisms underlying sudden cardiac death. Through controlled experimental models, I investigated how conduction system abnormalities and ischemic trigger events contribute to arrhythmogenesis.
+
+This work required rigorous experimental design, high-fidelity physiological data collection, quantitative analysis, and reproducible validation practices.
+
+🔗 **Google Scholar:**  
+https://scholar.google.com/citations?user=2RCONMQAAAAJ&hl=en
+
+---
+
+### Dissertation  
+
+**The Role of the Conduction System and Trigger Events Leading to Sudden Cardiac Death**
+
+My dissertation examined how ischemic stress and conduction system dynamics interact to produce arrhythmic events. Using structured experimental protocols, I evaluated how graded physiological stress influences conduction patterns and cardiac instability.
+
+**Core Contributions:**
+
+- Designed and executed IACUC-approved experimental protocols for controlled myocardial ischemia  
+- Developed structured ischemic stress and recovery paradigms  
+- Analyzed high-resolution physiological recordings to quantify conduction and arrhythmic behavior  
+- Implemented rigorous statistical evaluation and reproducibility standards  
+- Ensured compliance with institutional regulatory oversight for preclinical research  
+
+This work emphasized mechanistic clarity, controlled experimentation, and careful interpretation of complex biological signals.
+
+---
+
+### First-Author & Co-Author Publications  
+
+---
+
+#### Predicting Ventricular Arrhythmia in Myocardial Ischemia Using Deep Learning  
+
+**Busatto, A.**, et al.  
+*Heart Rhythm O2* (Accepted)
+
+🔗 Project Repository (SkipAlert):  
+https://github.com/annabusatto/SkipAlert  
+
+Developed an LSTM-based time-to-event prediction framework for premature ventricular contractions (PVCs) during acute ischemia.
+
+- Stacked LSTM architecture for temporal modeling  
+- Continuous time-to-event regression formulation  
+- Pooled cross-validation with subject-specific fine-tuning  
+- MAE ≈ 4–6 seconds  
+- Integrated physiological interpretation with ML outputs  
+
+---
+
+#### Reconstructing Ventricular Activation Sequences from Epicardial Data: Insights from Geodesic Back-Propagation Optimization in Porcine Models  
+
+**Busatto, A.**, et al.  
+*Computers in Biology and Medicine*  
+
+🔗 Published Article:  
+http://sciencedirect.com/science/article/pii/S0010482525015318  
+
+*Co-First Author*
+
+Evaluated inverse reconstruction of volumetric ventricular activation using modified geodesic back-propagation and eikonal propagation models.
+
+- Inferred earliest activation sites from epicardial surface data  
+- Validated against intramural recordings  
+- Quantified instability and ill-posedness of inverse solutions  
+- Identified need for physiological priors in digital twin reconstruction  
+
+---
+
+#### Uncertainty Quantification of Conduction Velocity in Models of Cardiac Spread of Activation  
+
+**Busatto, A.**, et al.  
+*Medical & Biological Engineering & Computing* (Under Review)
+
+Developed a polynomial chaos expansion (PCE)–based uncertainty quantification framework for ventricular activation modeling.
+
+- Sobol global sensitivity analysis  
+- Large-scale eikonal simulations  
+- Characterized spatial heterogeneity in activation-time variance  
+- Established CV parameter-prioritization strategies  
 
 <!-- ### Category Name 2
 
