@@ -119,7 +119,7 @@ This work emphasized mechanistic clarity, controlled experimentation, and carefu
 
 ---
 
-### First-Author & Co-Author Publications  
+### First-Author Publications  
 
 ---
 
