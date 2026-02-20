@@ -1,8 +1,8 @@
 title: Anna Busatto # your name (or website title) here
 logo: "/images/Anna_headshot.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: >
   <div class="justify-text">
-    Hello! I’m Anna Busatto, and I recently earned my PhD in Biomedical Engineering. I’m passionate about sports analytics, and my portfolio highlights projects in applied health, performance science, and data-driven insights for athletes.
+    I’m Anna Busatto, PhD — a biomedical engineer and data scientist specializing in biomechanics, uncertainty quantification, inverse modeling, and machine learning for physiological systems. My work spans applied sports analytics and computational electrophysiology, translating high-dimensional data into interpretable, decision-ready insights.
     <br><br>
     <a href="https://www.linkedin.com/in/annabusatto/">View My LinkedIn Profile</a>
   </div>
