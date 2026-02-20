@@ -128,8 +128,7 @@ This work emphasized mechanistic clarity, controlled experimentation, and carefu
 **Busatto, A.**, et al.  
 *Heart Rhythm O2* (Accepted)
 
-🔗 Project Repository (SkipAlert):  
-https://github.com/annabusatto/SkipAlert  
+🔗 [Project Repository (SkipAlert)](https://github.com/annabusatto/SkipAlert)
 
 Developed an LSTM-based time-to-event prediction framework for premature ventricular contractions (PVCs) during acute ischemia.
 
@@ -146,8 +145,7 @@ Developed an LSTM-based time-to-event prediction framework for premature ventric
 **Busatto, A.**, et al.  
 *Computers in Biology and Medicine*  
 
-🔗 Published Article:  
-http://sciencedirect.com/science/article/pii/S0010482525015318  
+🔗 [Published Article](https://www.sciencedirect.com/science/article/pii/S0010482525015318)
 
 *Co-First Author*
 
