@@ -152,6 +152,7 @@ This work emphasized mechanistic clarity, controlled experimentation, and carefu
 *Heart Rhythm O2*
 
 🔗 [Published Article](https://www.sciencedirect.com/science/article/pii/S2666501826000644)
+<br>
 🔗 [Project Repository (SkipAlert)](https://github.com/annabusatto/SkipAlert)
 
 Developed an LSTM-based time-to-event prediction framework for premature ventricular contractions (PVCs) during acute ischemia.
