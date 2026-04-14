@@ -149,8 +149,9 @@ This work emphasized mechanistic clarity, controlled experimentation, and carefu
 #### Predicting Ventricular Arrhythmia in Myocardial Ischemia Using Deep Learning  
 
 **Busatto, A.**, et al.  
-*Heart Rhythm O2* (Accepted)
+*Heart Rhythm O2*
 
+🔗 [Published Article](https://www.sciencedirect.com/science/article/pii/S2666501826000644)
 🔗 [Project Repository (SkipAlert)](https://github.com/annabusatto/SkipAlert)
 
 Developed an LSTM-based time-to-event prediction framework for premature ventricular contractions (PVCs) during acute ischemia.
@@ -184,7 +185,9 @@ Evaluated inverse reconstruction of volumetric ventricular activation using modi
 #### Uncertainty Quantification of Conduction Velocity in Models of Cardiac Spread of Activation  
 
 **Busatto, A.**, et al.  
-*Medical & Biological Engineering & Computing* (Under Review)
+*Medical & Biological Engineering & Computing*
+
+🔗 [Published Article](https://rdcu.be/e9gRZ)
 
 Developed a polynomial chaos expansion (PCE)–based uncertainty quantification framework for ventricular activation modeling.
 
